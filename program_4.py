@@ -1,3 +1,6 @@
+#Elliott Morris, 1/13/2026, Celcius to Fahrenheit
+#It seems weird to only have to type one line of code. If I am doing something wrong please let me know so I can correct it.
+
 # Look at line 17 first.
 # This program introduces a couple new concepts,
 # we'll be covering those in the weeks ahead
@@ -11,7 +14,7 @@ def temp_conversion(celsius):
     ######################
     # WRITE YOUR CODE HERE
     ######################    
-
+    fahrenheit = (9/5) * celsius + 32
 
     # Return the variable to the calling function
     return fahrenheit
@@ -27,3 +30,4 @@ if __name__ == '__main__':
     fahrenheit = temp_conversion(celsius)
     # Display the Fahrenheit temperature.
     print ("That is equal to", format(fahrenheit, '.2f'), "degrees Fahrenheit.")
+
