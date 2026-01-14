@@ -17,6 +17,8 @@ def calculate_total_purchase():
     total_purchase = subtotal + sales_tax
 
     #print results using a formatted string
+    print(f'The subtotal is: $ {subtotal:0.2f}')
+    print(f'The sales tax is: $ {sales_tax:0.2f}')
     print(f'The total purchase is: $ {total_purchase:0.2f}')
 
 #runs the calculate function
